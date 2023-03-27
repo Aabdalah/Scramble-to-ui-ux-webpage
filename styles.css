@@ -1,0 +1,136 @@
+*{
+    margin:0px;
+    padding:0;
+}
+body{
+    height: 100vh;
+    font-family: sans-serif;
+    display:flex;
+    flex-direction: column;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+    background-color: #9381FF;
+}
+header ul{
+    display:flex;
+}
+header ul li{
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+header ul li a{
+    color:black;
+    text-decoration: none;
+}
+main{
+    background-color:#B8B8FF;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:20px;
+    padding:10px;
+    flex:1;
+}
+#chat-window{
+    display:flex;
+    flex-direction: column;
+    width:60%;
+    align-items: center;
+    border-radius: 20px;
+}
+#chat-window .title{
+    padding:10px;
+    border-bottom: 1px solid #9381FF;
+    background-color: #9381FF;
+    width:100%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#chat-window .content{
+    padding:30px;
+    background-color: #F8F7FF;
+    width:100%;
+    box-sizing: border-box;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#chat-window .content input{
+    height: 28px;
+}
+#chat-window .content button{
+    cursor: pointer;
+}
+#options-tables{
+    display:flex;
+    width:60%;
+    justify-content: center;
+    width:100%;
+    gap:10%;
+    
+}
+#options-tables #options {
+    background-color: #F8F7FF;
+    width:25%;
+    text-align: center;
+    padding:0px 0px 30px 0px;
+    border-radius: 20px;
+}
+#options-tables #options p{
+    background-color: #9381FF;
+    padding:10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#options-tables #options select{
+    width:80%
+}
+#options-tables #number-of-tables{
+    background-color: #F8F7FF;
+    width:25%;
+    text-align: center;
+    border-radius: 20px;
+}
+#options-tables #number-of-tables p{
+    background-color: #9381FF;
+    padding:10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#options-tables #number-of-tables select{
+    width:80%
+}
+table{
+    background-color: #F8F7FF;
+    width:300px;
+    padding:20px;
+    text-align:center;
+    border-radius: 20px;
+}
+table td{
+    padding:5px;
+    border: 1px solid black;
+}
+table th{
+    background-color: #9381FF;
+}
